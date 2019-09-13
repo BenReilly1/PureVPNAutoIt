@@ -1,7 +1,7 @@
-#RequireAdmin
+sleep(10000)
 Run('C:\Program Files (x86)\PureVPN\purevpn.exe')
 AutoItSetOption('MouseCoordMode', 0)
-WinWait('PureVPN - Secure Virtual Private Network Connection (Administrator)')
+WinWait('PureVPN - Secure Virtual Private Network Connection')
 sleep(15000)
-WinActivate('PureVPN - Secure Virtual Private Network Connection (Administrator)')
+WinActivate('PureVPN - Secure Virtual Private Network Connection')
 MouseClick('primary', 388, 384, 1, 0)
